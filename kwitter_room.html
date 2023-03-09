@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="kwitter_room.js"></script>
+    <link rel="stylesheet" href="kwitter_room.css" type="text/css">
+    <title>Let's chat web app room</title>
+</head>
+<body>
+    <div class="container">
+        <button id="logout_button" class="btn btn-danger glyphicon glyphicon-log-out"> Logout</button>
+        <br>
+        <br>
+        <center>
+            <h1>Scool Chatting App
+                <sup>
+                    <img id="img" src="download-_2_.png">
+                </sup>
+            </h1>
+            <h1 id="welcome_h1"></h1>
+            <input class="form-control" id="search_input" placeholder="Search a room name">
+            <br>
+            <button id="addroom_button" class="btn btn-success" onclick="addroom()" >Add Room</button>
+            <h3 id="rooms_text">Trending rooms</h3>
+            <div id="output"></div>
+        </center>
+    </div>
+</body>
+</html>
